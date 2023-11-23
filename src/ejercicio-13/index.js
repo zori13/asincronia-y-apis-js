@@ -5,7 +5,7 @@ async function obtenerDatos(){
         console.log(respuesta.data)
     }
     catch(error){
-        console.error('Error al obtener datos: ',error.message)
+        console.error('Error al obtener datos : ',error.message)
     }
 }
 obtenerDatos()
