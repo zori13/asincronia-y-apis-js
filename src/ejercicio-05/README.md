@@ -3,8 +3,7 @@
 Crea tres Promises consecutivas, donde cada una se resuelva después de 1 segundo y devuelva un número diferente. Luego, encadena las tres Promises para sumar los resultados y mostrar el resultado final.
 
 ```javascript
-function crearPromiseConRetraso(valor, retraso) {
-  return new Promise((resolve) => {
+cre  return new Promise((resolve) => {
     setTimeout(() => {
       resolve(valor)
     }, retraso)
