@@ -10,7 +10,7 @@ async function operacionAsincronica() {
 
 async function ejecutarOperacion() {
   const resultado = await operacionAsincronica()
-  console.log(resultado)
+  console.log ( resultado )
 }
 
 ejecutarOperacion()
